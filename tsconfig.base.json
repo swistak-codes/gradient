@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@gradient/presentation-gradient": [
+        "libs/presentation-gradient/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
