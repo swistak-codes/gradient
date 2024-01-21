@@ -1,7 +1,7 @@
 {
-  "name": "gradient",
+  "name": "linear-rgb",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/gradient/src",
+  "sourceRoot": "apps/linear-rgb/src",
   "projectType": "application",
   "targets": {
     "build": {
@@ -9,7 +9,7 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/apps/gradient"
+        "outputPath": "dist/apps/linear-rgb"
       },
       "configurations": {
         "development": {
@@ -24,15 +24,15 @@
       "executor": "@nx/vite:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "gradient:build"
+        "buildTarget": "linear-rgb:build"
       },
       "configurations": {
         "development": {
-          "buildTarget": "gradient:build:development",
+          "buildTarget": "linear-rgb:build:development",
           "hmr": true
         },
         "production": {
-          "buildTarget": "gradient:build:production",
+          "buildTarget": "linear-rgb:build:production",
           "hmr": false
         }
       }
@@ -41,14 +41,14 @@
       "executor": "@nx/vite:preview-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "gradient:build"
+        "buildTarget": "linear-rgb:build"
       },
       "configurations": {
         "development": {
-          "buildTarget": "gradient:build:development"
+          "buildTarget": "linear-rgb:build:development"
         },
         "production": {
-          "buildTarget": "gradient:build:production"
+          "buildTarget": "linear-rgb:build:production"
         }
       }
     },
@@ -56,7 +56,7 @@
       "executor": "@nx/vite:test",
       "outputs": ["{options.reportsDirectory}"],
       "options": {
-        "reportsDirectory": "../../coverage/apps/gradient"
+        "reportsDirectory": "../../coverage/apps/linear-rgb"
       }
     },
     "lint": {
