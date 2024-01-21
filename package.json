@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start:linear-rgb": "nx serve linear-rgb"
+    "start:linear-rgb": "nx serve linear-rgb",
+    "start:linear-hsl": "nx serve linear-hsl"
   },
   "private": true,
   "dependencies": {
