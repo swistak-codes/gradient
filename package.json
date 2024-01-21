@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start:linear-rgb": "nx serve linear-rgb",
-    "start:linear-hsl": "nx serve linear-hsl"
+    "start:linear-hsl": "nx serve linear-hsl",
+    "start:polynomial": "nx serve polynomial"
   },
   "private": true,
   "dependencies": {
