@@ -5,7 +5,8 @@
   "scripts": {
     "start:linear-rgb": "nx serve linear-rgb",
     "start:linear-hsl": "nx serve linear-hsl",
-    "start:polynomial": "nx serve polynomial"
+    "start:polynomial": "nx serve polynomial",
+    "start:bezier3d": "nx serve bezier3d"
   },
   "private": true,
   "dependencies": {
