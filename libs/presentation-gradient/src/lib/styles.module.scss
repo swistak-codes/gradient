@@ -85,6 +85,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: column;
   width: 600px;
 
   li:before {
