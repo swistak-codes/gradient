@@ -23,9 +23,9 @@
 }
 
 .pointList {
-  align-self: start;
   max-width: 400px;
   width: 100%;
+  padding: 0;
 }
 
 .point {
@@ -35,11 +35,11 @@
   gap: 8px;
 
   .slider {
-    width: 150px;
+    width: 120px;
   }
 
   .slider2d {
-    width: 100px;
+    width: 60px;
   }
 
   .numberInput {
@@ -86,7 +86,11 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  width: 600px;
+  width: 100%;
+
+  ol {
+    padding: 0;
+  }
 
   li:before {
     content: 'P' counter(item) '. ' !important;
